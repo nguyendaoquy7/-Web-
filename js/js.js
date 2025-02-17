@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Xử lý sự kiện thêm vào giỏ hàng
     addToCartButton.addEventListener('click', () => {
-        alert('Sản phẩm đã được thêm vào giỏ hàng!');
+        alert('商品がカートに追加されました！');
     });
 });
