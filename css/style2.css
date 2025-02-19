@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact .container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-left: 5px solid #008000;
+    padding-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.required {
+    color: white;
+    background-color: red;
+    padding: 3px 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.address {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.postal-code {
+    flex: 1;
+}
+
+.search-btn {
+    background-color: #004d00;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-btn:hover {
+    background-color: orange;
+}
+
+.note {
+    font-size: 12px;
+    color: green;
+    margin-top: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #006600;
+}
+
+.privacy-box {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.privacy-box input {
+    margin-right: 10px;
+
+}
+/* 
+.privacy-box label {
+    display: flex;
+} */
+
+.confirm-btn {
+    background-color: #ff8c00;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

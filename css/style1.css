@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	
+	font-size: 15px;
+	line-height: 2;
+	background: #fff;
+	-webkit-text-size-adjust: none;
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+ul {list-style-type: none;}
+ol {padding-left: 40px;padding-bottom: 15px;}
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+iframe {width: 100%;}
+
+a {
+	color: #666;
+	-webkit-transition: 0.5s;	
+	transition: 0.5s;			
+}
+a:hover {
+	color: #4bc5e6;			
+	text-decoration: none;
+}
+
+.inner {
+	max-width: 1000px;	
+	margin: 0 auto;
+	padding: 0 2%;
+    margin-top: 50px;
+}
+
+.contents {
+	clear: both;
+	overflow: hidden;
+	padding: 40px 0;
+}
+
+.contents h2 {
+	clear: both;
+	font-size: 20px;
+	line-height: 1.4;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	background: linear-gradient(#fff, #eee);
+	border-bottom: 1px solid #dcdcdc;
+	border-top: 4px solid #4bc5e6;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.15);
+	text-shadow: 0px 2px #fff;
+}
+
+.contents h2 span {
+	display: block;
+	color: #4bc5e6;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+	padding-left: 5px;
+}
+
+.contents h3 {
+	clear: both;
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	border: 1px solid #dcdcdc;
+	background: #f8f8f8;
+}
+
+.contents p {
+	padding: 0px 20px 15px;
+}
+.contents h2 + p,
+.contents h3 + p {
+	margin-top: -10px;
+}
+
+
+.ta1 {
+	width: 100%;
+	margin: 0 auto 20px;
+}
+.ta1, .ta1 td, .ta1 th {
+	border: 1px solid #ccc;
+	padding: 10px 15px;	
+	word-break: break-all;
+}
+
+.ta1 th.tamidashi {
+	width: auto;
+	text-align: left;
+	background: #f6f5f2;
+	font-size: 18px;
+}
+
+.ta1 th {
+	width: 140px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.ta1 th img {
+	width: 100%;
+}
+
+
+.main {
+	overflow: hidden;
+	float: right;
+	width: 72%;
+    
+}
+
+.sub {
+	float: left;
+	width: 24%;	
+}
+
+.sub h2 {
+	margin-bottom: 0;
+	box-shadow: none;
+	font-size: 16px;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid #dcdcdc;
+}
+
+.sub p {
+	margin: 0 !important;
+	padding: 10px !important;
+}
+
+.sub ul.submenu {
+	margin-bottom: 15px;
+	border-top: solid 1px #dcdcdc;
+}
+
+.sub ul.submenu li a {
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px;
+	border-bottom: solid 1px #dcdcdc;
+	border-left: solid 1px #dcdcdc;
+	border-right: solid 1px #dcdcdc;
+}
+
+.sub ul.submenu li a:hover {
+	background: #4bc5e6;
+	color: #fff;
+}
+
+.sub h2 + ul.submenu {
+	border-top: none;
+}
+
+.sub .box1 {
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #dcdcdc;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.1) inset;
+}
+
+.sub h2 + .box1 {
+	border-top: none;
+}
+
+.sub ul.submenu {
+	margin-bottom: 0;
+}
+
+
+@media screen and (max-width:800px){
+
+
+.inner {
+	width: auto;
+}
+
+.main, .sub {
+	float: none;
+	width: auto;
+}
+
+.sub ul.submenu li {
+	width: 50%;
+	float: left;
+}
+
+.sub ul.submenu li:nth-child(even) a {
+	border-left: none;
+}
+
+}
