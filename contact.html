@@ -64,9 +64,15 @@
                             <input type="text" id="postal-code" name="postal-code" placeholder="〒" class="postal-code">
                             <button type="button" class="search-btn">住所検索</button>
                         </div>
-                        <input type="text" name="prefecture" placeholder="都道府県">
-                        <input type="text" name="city" placeholder="市区町村番地">
-                        <input type="text" name="building" placeholder="マンション/ビル名">
+                        <div class="address1">
+                            <input type="text" name="prefecture" placeholder="都道府県">
+                        </div>
+                        <div class="address1">
+                            <input type="text" name="city" placeholder="市区町村番地">
+                        </div>
+                        <div class="address1">
+                            <input type="text" name="building" placeholder="マンション/ビル名">
+                        </div>
                     </div>
         
                     <div class="form-group">
@@ -88,54 +94,53 @@
                     <p> &lt;&lt; ここに個人情報保護方針が入ります。 &gt;&gt; <br> &lt;&lt; ここに個人情報保護方針が入ります。 &gt;&gt; &lt;&lt; ここに個人情報保護方針が入ります。 &gt;&gt;</p>
                 
                     <div class="privacy-box">
-                        <label>
-                            <input type="checkbox" name="privacy" required>
-                            個人情報の取扱いに同意する
-                        </label>
+                        <span class="required">必須</span>
+                        <input type="checkbox" name="privacy" required>
+                        <label>個人情報の取扱いに同意する</label>
                     </div>
                 
                     <button type="submit" class="confirm-btn">入力内容の確認画面へ</button>
                 </form>
+                
             </div>
         <!-- </div> -->
        <!-- <p id="pagetop" class="inner"><a href="#">↑</a></p> -->
         
        <div id="footer">
-        <div class="box">
-            <div class="logo">
-                <img src="assets/logo.png" alt="">
+            <div class="box">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="" style="width: 175px;">
+                </div>
+                <div id="copyright">
+                    <small>Copyright&copy; <a href="index.html" style="color: white;">WATANABE METAL INC.</a> All Rights Reserved.</small>
+                </div>
             </div>
-            <div id="copyright">
-                <small>Copyright&copy; <a href="index.html" style="color: white;">WATANABE METAL INC.</a> All Rights Reserved.</small>
+            <div class="box">
+                <h2>MENU</h2>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="index.html">HOME</a>
+                    </div>
+                    <div class="item">
+                        <a href="product.html">PRODUCTS</a>
+                    </div>
+                    <div class="item">
+                        <a href="company.html">COMPANY</a>
+                    </div>
+                    <div class="item">
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+                </ul>
             </div>
-        </div>
-        <div class="box">
-            <h2>CONTENT</h2>
-            <ul class="quick-menu">
-                <div class="item">
-                    <a href="index.html">HOME</a>
-                </div>
-                <div class="item">
-                    <a href="product.html">PRODUCTS</a>
-                </div>
-                <div class="item">
-                    <a href="company.html">COMPANY</a>
-                </div>
-                <div class="item">
-                    <a href="contact.html">CONTACT</a>
-                </div>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>CONTACT</h2>
-            <form action="">
-                <input type="text" placeholder="Email">
-                <button>Send</button>
-            </form>
-        </div>
-    </div>  
+            <div class="box">
+                <h2>CONTACT</h2>
+                <form action="">
+                    <input type="text" placeholder="Email">
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>  
     </div>
-    <script src="js/js.js"></script>
 </body>
 
 </html>

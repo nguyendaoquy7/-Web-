@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
-    padding: 20px;
 }
 
 .container {
@@ -24,7 +23,7 @@ body {
     margin-bottom: 15px;
 }
 
-label {
+#contact .container label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
@@ -39,7 +38,7 @@ label {
     border-radius: 3px;
 }
 
-textarea, input {
+#contact .container textarea, input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -54,6 +53,10 @@ textarea {
 .address {
     display: flex;
     gap: 5px;
+    margin-bottom: 5px;
+}
+
+.address1 {
     margin-bottom: 5px;
 }
 
@@ -86,7 +89,7 @@ textarea {
 
 .privacy-box {
     background-color: #f0f8ff;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
     display: flex;
@@ -95,19 +98,27 @@ textarea {
 
 .privacy-box input {
     margin-right: 10px;
-
+    width: 50px;
+    margin-left: 210px;
 }
-/* 
-.privacy-box label {
-    display: flex;
-} */
+
+.privacy-box span {
+    width: 50px;
+    padding: 3px 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.privacy-box label  {
+    width: 100%;
+}
 
 .confirm-btn {
     background-color: #ff8c00;
     color: white;
     padding: 15px;
     border: none;
-    width: 100%;
+    width: 300px;
     font-size: 16px;
     border-radius: 30px;
     cursor: pointer;
@@ -116,4 +127,10 @@ textarea {
     align-items: center;
     font-weight: bold;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.confirm-btn:hover {
+    background-color: #e07b00;
 }

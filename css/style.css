@@ -371,6 +371,13 @@ a.out {
 .item a {
     color: #fff;
     text-decoration: none;
+    -webkit-transition: 0.5s;	
+	transition: 0.5s;
+}
+
+#footer .box .quick-menu,
+.item a:hover {
+    color: #4bc5e6;			
 }
 
 #footer .box form input {

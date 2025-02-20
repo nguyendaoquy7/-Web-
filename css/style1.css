@@ -5,26 +5,23 @@ body {
 	padding: 0px;
 	color: #666;
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	
-	font-size: 15px;
-	line-height: 2;
 	background: #fff;
 	-webkit-text-size-adjust: none;
 }
-h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
-ul {list-style-type: none;}
-ol {padding-left: 40px;padding-bottom: 15px;}
-img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
-table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
-iframe {width: 100%;}
-
-a {
-	color: #666;
-	-webkit-transition: 0.5s;	
-	transition: 0.5s;			
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
+	margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;
 }
-a:hover {
-	color: #4bc5e6;			
-	text-decoration: none;
+ul {
+	list-style-type: none;
+}
+ol {
+	padding-left: 40px;padding-bottom: 15px;
+}
+table {
+	border-collapse:collapse;font-size: 100%;border-spacing: 0;
+}
+iframe {
+	width: 100%;
 }
 
 .inner {
@@ -106,10 +103,10 @@ a:hover {
 }
 
 
-.main {
+.contents .inner .main {
 	overflow: hidden;
 	float: right;
-	width: 72%;
+	width: 75%;
     
 }
 
@@ -139,6 +136,7 @@ a:hover {
 
 .sub ul.submenu li a {
 	text-decoration: none;
+	color: #666;
 	display: block;
 	padding: 5px 10px;
 	border-bottom: solid 1px #dcdcdc;
@@ -175,22 +173,22 @@ a:hover {
 @media screen and (max-width:800px){
 
 
-.inner {
-	width: auto;
-}
+	.inner {
+		width: auto;
+	}
 
-.main, .sub {
-	float: none;
-	width: auto;
-}
+	.main, .sub {
+		float: none;
+		width: auto;
+	}
 
-.sub ul.submenu li {
-	width: 50%;
-	float: left;
-}
+	.sub ul.submenu li {
+		width: 50%;
+		float: left;
+	}
 
-.sub ul.submenu li:nth-child(even) a {
-	border-left: none;
-}
+	.sub ul.submenu li:nth-child(even) a {
+		border-left: none;
+	}
 
 }
