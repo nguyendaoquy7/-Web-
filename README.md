@@ -15,7 +15,7 @@
 
 **Company**
 
-![Image](https://github.com/user-attachments/assets/bd470440-cb68-4f2b-b098-ebf834e3bf43)
+![Image](https://github.com/user-attachments/assets/04df8c9a-e8a5-4f65-ab4d-db5ea35b4966)
 
 
 **Contact**
